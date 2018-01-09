@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li>
+                    <a href="#">Utility Bills</a>
+                </li>
+                <li>
+                    <a href="#">Income Tax</a>
+                </li>
+                <li>
+                    <a href="#">Property Tax</a>
+                </li>
+                <li>
+                    <a href="#">Log out</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+			<input type="image" src="button.png" id="menu-toggle" width="48" height="48">
+                <div id="test">
+                    <table>
+                     <tr>
+                         <th><u>January 2017</u></th>
+						 <th></th>
+                     </tr>
+                    <tr>
+                        <th><u>Water Services</u></th>
+						<th></th>
+                    </tr>
+					<tr>
+						<th><u>&nbsp;L&nbsp;</u></th>
+						<th><u>&nbsp;$&nbsp;</u></th>
+					</tr>
+					<tr>
+						<th>8L</th>
+						<th>50.55</th>
+					</tr>
+                    <tr>
+                        <th><u>Electrical Services</u></th>
+						<th></th>
+                    </tr>
+					<tr>
+						<th><u>KWh</u></th>
+						<th><u>&nbsp;$&nbsp;</u></th>
+					</tr>
+					<tr>
+						<th>505</th>
+						<th>48.99</th>
+					</tr>
+                    </table>
+				<div id="savings">
+					<table>
+						<tr>
+							<th><u>Planned Savings</u></th>
+						</tr>
+						<tr>
+							<th><u>$50</u></th>
+						</tr>
+						<tr>
+							<th></th>
+						</tr>
+						<tr>
+							<th></th>
+						</tr>
+						<tr>
+							<th></th>
+						</tr>
+						<tr>
+							<th></th>
+						</tr>
+						<tr>
+							<th></th>
+						</tr>
+						<tr>
+							<th></th>
+						</tr>
+						<tr>
+							<th></th>
+						</tr>
+						<tr>
+							<th><u>Actual Savings</u></th>
+						</tr>
+						<tr>
+							<th><u>$30</u></th>
+						</tr>
+					</table>
+				</div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+		
+		<div class="card mb-3">
+        <div class="card-header">
+          <i class="fa fa-area-chart"></i> Spendings per day</div>
+        <div class="card-body">
+          <canvas id="myAreaChart" width="100%" height="30"></canvas>
+        </div>
+        <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8">
+
+          <!-- Example Bar Chart Card-->
+          <div class="card mb-3">
+            <div class="card-header">
+              <i class="fa fa-bar-chart"></i> Bar Chart Example</div>
+            <div class="card-body">
+              <canvas id="myBarChart" width="100" height="50"></canvas>
+            </div>
+            <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <!-- Example Pie Chart Card-->
+          <div class="card mb-3">
+            <div class="card-header">
+              <i class="fa fa-pie-chart"></i> Pie Chart Example</div>
+            <div class="card-body">
+              <canvas id="myPieChart" width="100%" height="100"></canvas>
+            </div>
+            <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src = "chart/chartjs/Chart.min.js"></script>
+    <script src = "chart/sb-admin-charts.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>

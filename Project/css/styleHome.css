@@ -1,0 +1,137 @@
+body {
+	background-attachment: fixed;
+	background-position: center top;
+	color: #000305;
+	font-size: 87.5%;
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1.429;
+	margin: 0;
+	padding: 0;
+	}
+
+	
+.body {
+	clear: both;
+	margin: 0 auto;
+	width: 70%;
+}
+
+
+/* ===========================
+ ========= Headings ========
+ =========================== */
+h2 {font-size: 1.571em} /* 22px */
+h3 {font-size: 1.429em} /* 20px */
+h4 {font-size: 1.286em} /* 18px */
+h5 {font-size: 1.143em} /* 16px */
+h6 {font-size: 1em} /* 14px */
+
+h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+
+
+/* ===========================
+ ======= Anchor style ======
+ =========================== */
+a {
+	outline: 0; 
+  }
+  
+a img {
+	border: 0px;
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #493f32;
+	padding: 0 1px;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	background-color: #493f32;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/* ===========================
+ ===== Main Navigation =====
+ =========================== */
+
+.mainHeader nav {
+	display: table;
+    table-layout: fixed;
+    width: 109%;
+	background: #72634e;
+	font-size: 1.143em;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+	border-radius: 5px;
+
+}
+
+.mainHeader nav ul {
+	display: table-row;
+    margin: 0;
+    padding: 0;
+	list-style: none;
+	margin: 0px auto;
+}
+
+.mainHeader nav ul li {
+	list-style: none;
+    display: table-cell;
+    text-align: center;
+	float: center;
+	display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #fff;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 80px;
+	text-decoration: none;
+}
+
+.mainHeader nav a:hover {
+	background: #5e5241;
+	color: #fff;
+	text-shadow: none !important;
+}
+
+.mainHeader nav a:active,.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background: #493f32;
+	color: #fff;
+	text-shadow: none !important;
+}
+
+.mainHeader nav li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.content {
+	text-align: center;
+	width: 109%;
+	background: #72634e;
+	color: #fff;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#h1{
+	text-align: center;
+	width: 109%;
+	background: #72634e;
+	color: #fff;
+	border-radius: 10px;
+}
